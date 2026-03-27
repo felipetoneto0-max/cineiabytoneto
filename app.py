@@ -5,7 +5,7 @@ import google.generativeai as genai
 genai.configure(api_key=st.secrets["general"]["api_key"])
 
 
-model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
+model=genai.GenerativeModel("gemini-3.1-flash-lite-preview")
 
 # Configuração da página
 st.set_page_config(page_title="CineIA", page_icon="🍿")
